@@ -1,0 +1,19 @@
+# Mengabaikan konfigurasi lokal environment
+.env
+config.local.php
+
+# Mengabaikan folder vendor jika menggunakan Composer
+/vendor/
+
+# Mengabaikan file log sistem dan cache
+*.log
+/app/Storage/logs/
+/app/Storage/cache/
+
+# Mengabaikan file gambar yang diunggah pengguna saat testing
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Mengabaikan file sampah sistem operasi
+.DS_Store
+Thumbs.db
